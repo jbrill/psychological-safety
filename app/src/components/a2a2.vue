@@ -1,22 +1,24 @@
 <template>
   <v-container>
-    <youtube :video-id="videoId" :player-vars="{ autoplay: 1 }"></youtube>
-    <h2>Do you know what is happening?</h2>
-    <v-btn color="green" href="/try_again">Yes</v-btn>
-    <v-btn color="red" href="/try_again">No</v-btn>
+    <Video
+      :videoId="videoId"
+      yesLink="try_again"
+      noLink="try_again"
+      :question="'Do you know what is happening?'"
+    />
   </v-container>
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      videoId: 'MgPz_WNYxq0',
-    }),
-    computed: {
-      currentRouteName() {
-        console.log(this)
-        return this.$route;
-      }
-    }
-  }
+import Video from './Video.vue';
+
+export default {
+  components: {
+    Video,
+  },
+  data: () => ({
+    videoId: 'MgPz_WNYxq0',
+  }),
+}
 </script>
+

@@ -1,24 +1,23 @@
 <template>
   <v-container>
-    <youtube :video-id="videoId" :player-vars="{ autoplay: 1 }"></youtube>
-    <h2>Do you think you are a good person?</h2>
-    <v-btn color="green" href="/try_again">Yes</v-btn>
-    <v-btn color="red" href="/try_again">No</v-btn>
+    <Video
+      :videoId="videoId"
+      yesLink="try_again"
+      noLink="try_again"
+      :question="'Do you think you are a good person?'"
+    />
   </v-container>
 </template>
 
 <script>
-  export default {
-    name: 'HelloWorld',
+import Video from './Video.vue';
 
-    data: () => ({
-      videoId: '2O2fleABnjY',
-    }),
-    computed: {
-      currentRouteName() {
-        console.log(this)
-        return this.$route;
-      }
-    }
-  }
+export default {
+  components: {
+    Video,
+  },
+  data: () => ({
+    videoId: '2O2fleABnjY',
+  }),
+}
 </script>

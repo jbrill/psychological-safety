@@ -1,22 +1,23 @@
 <template>
   <v-container>
-    <youtube :video-id="videoId" :player-vars="{ autoplay: 1 }"></youtube>
-    <h2>Is there a meaning  to life?</h2>
-    <v-btn color="green" href="/a2a1">Yes</v-btn>
-    <v-btn color="red" href="/a2a2">No</v-btn>
+    <Video
+      :videoId="videoId"
+      yesLink="try_again"
+      noLink="try_again"
+      :question="'Is there a meaning  to life?'"
+    />
   </v-container>
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      videoId: 'sDAJIWvTKw8',
-    }),
-    computed: {
-      currentRouteName() {
-        console.log(this)
-        return this.$route;
-      }
-    }
-  }
+import Video from './Video.vue';
+
+export default {
+  components: {
+    Video,
+  },
+  data: () => ({
+    videoId: 'sDAJIWvTKw8',
+  }),
+}
 </script>

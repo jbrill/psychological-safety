@@ -27,7 +27,7 @@
 
 
 export default {
-  name: 'App',
+  name: 'Test',
 
   components: {
   },
@@ -45,5 +45,8 @@ export default {
 #app {
   background-color: black;
   color: white;
+}
+.v-btn__content {
+  color: white !important;
 }
 </style>
