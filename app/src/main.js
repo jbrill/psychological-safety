@@ -4,11 +4,19 @@ import vuetify from './plugins/vuetify';
 import VueRouter from 'vue-router';
 import home from './components/home';
 import a1 from './components/a1';
-import a2 from './components/a2';
 import a1a from './components/a1a';
-import a2a from './components/a2a';
+import a1a1 from './components/a1a1';
+import a1a2 from './components/a1a2';
 import a1b from './components/a1b';
+import a1b1 from './components/a1b1';
+import a1b2 from './components/a1b2';
+import a2 from './components/a2';
+import a2a from './components/a2a';
+import a2a1 from './components/a1b1';
+import a2a2 from './components/a1b2';
 import a2b from './components/a2b';
+import a2b1 from './components/a1b1';
+import a2b2 from './components/a1b2';
 import VueYouTubeEmbed from 'vue-youtube-embed';
 
 Vue.config.productionTip = false
@@ -16,11 +24,19 @@ Vue.config.productionTip = false
 const routes = [
   { path: '/', component: home },
   { path: '/a1', component: a1 },
-  { path: '/a2', component: a2 },
   { path: '/a1a', component: a1a },
+  { path: '/a1a1', component: a1a1 },
+  { path: '/a1a2', component: a1a2 },
   { path: '/a1b', component: a1b },
+  { path: '/a1b1', component: a1b1 },
+  { path: '/a1b2', component: a1b2 },
+  { path: '/a2', component: a2 },
   { path: '/a2a', component: a2a },
+  { path: '/a2a1', component: a2a1 },
+  { path: '/a2a2', component: a2a2 },
   { path: '/a2b', component: a2b },
+  { path: '/a2b1', component: a2b1 },
+  { path: '/a2b2', component: a2b2 },
 ];
 
 // 3. Create the router instance and pass the `routes` option

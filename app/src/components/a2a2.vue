@@ -1,18 +1,16 @@
 <template>
   <v-container>
     <youtube :video-id="videoId" :player-vars="{ autoplay: 1 }"></youtube>
-    <h2>Do you know who you are?</h2>
-    <v-btn color="green" href="/a2a1">Yes</v-btn>
-    <v-btn color="red" href="/a2a2">No</v-btn>
+    <h2>Do you know what is happening?</h2>
+    <v-btn color="green" href="/try_again">Yes</v-btn>
+    <v-btn color="red" href="/try_again">No</v-btn>
   </v-container>
 </template>
 
 <script>
   export default {
-    name: 'HelloWorld',
-
     data: () => ({
-      videoId: '5ZCgbGgA-_8',
+      videoId: 'MgPz_WNYxq0',
     }),
     computed: {
       currentRouteName() {

@@ -1,9 +1,9 @@
 <template>
   <v-container>
+    <youtube :video-id="videoId" :player-vars="{ autoplay: 1 }"></youtube>
     <h2>Are you comfortable?</h2>
     <v-btn color="green" to="/a1a">Yes</v-btn>
     <v-btn to="/a1b" color="red">No</v-btn>
-    <youtube :video-id="videoId"></youtube>
   </v-container>
 </template>
 
