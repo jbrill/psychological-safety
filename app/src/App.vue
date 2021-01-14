@@ -35,6 +35,12 @@ export default {
   data: () => ({
     //
   }),
+  created () {
+    const title = 'Psychological Safety'
+    if (title) {
+      document.title = title
+    }
+  }
 };
 </script>
 

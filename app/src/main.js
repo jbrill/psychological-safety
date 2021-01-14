@@ -22,8 +22,8 @@ import VueYouTubeEmbed from 'vue-youtube-embed';
 Vue.config.productionTip = false
 
 const routes = [
-  { path: '/', component: home },
-  { path: '/a1', component: a1 },
+  { path: '/', name: 'Psychological Safety', component: home },
+  { path: '/a1', name: 'Psychological Safety', component: a1 },
   { path: '/a1a', component: a1a },
   { path: '/a1a1', component: a1a1 },
   { path: '/a1a2', component: a1a2 },
