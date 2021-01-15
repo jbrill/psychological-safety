@@ -5,6 +5,7 @@
       yesLink="psychological_safety"
       noLink="a1b1"
       :question="'Do you want to know the truth?'"
+      speedUp
     />
   </v-container>
 </template>
@@ -17,7 +18,7 @@ export default {
     Video,
   },
   data: () => ({
-    videoId: 'XceBpbd7wdI',
+    videoId: 'ar2UyGn27RU',
   }),
 }
 </script>

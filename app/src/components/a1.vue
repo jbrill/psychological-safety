@@ -5,6 +5,7 @@
       yesLink="a1a"
       noLink="a1b"
       :question="'Are you comfortable?'"
+      :audioLink="a1"
     />
   </v-container>
 </template>
