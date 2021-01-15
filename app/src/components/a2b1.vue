@@ -3,8 +3,8 @@
     <Video
       :videoId="videoId"
       yesLink="try_again"
-      noLink="try_again"
-      :question="'Do you want to know the truth?'"
+      noLink="psychological_safety"
+      :question="'Do you know what is happening?'"
     />
   </v-container>
 </template>

@@ -2,7 +2,7 @@
   <v-container>
     <Video
       :videoId="videoId"
-      yesLink="try_again"
+      yesLink="psychological_safety"
       noLink="try_again"
       :question="'When I ask questions, is it really you answering?'"
     />

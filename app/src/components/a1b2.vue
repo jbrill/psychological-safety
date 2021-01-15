@@ -2,9 +2,9 @@
   <v-container>
     <Video
       :videoId="videoId"
-      yesLink="try_again"
+      yesLink="psychological_safety"
       noLink="try_again"
-      :question="'Is there a meaning  to life?'"
+      :question="'Is there a meaning to life?'"
     />
   </v-container>
 </template>

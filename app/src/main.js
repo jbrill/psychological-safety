@@ -17,6 +17,8 @@ import a2a2 from './components/a1b2';
 import a2b from './components/a2b';
 import a2b1 from './components/a1b1';
 import a2b2 from './components/a1b2';
+import psychological_safety from './components/psychological_safety';
+import try_again from './components/try_again';
 import VueYouTubeEmbed from 'vue-youtube-embed';
 
 Vue.config.productionTip = false
@@ -37,6 +39,8 @@ const routes = [
   { path: '/a2b', component: a2b },
   { path: '/a2b1', component: a2b1 },
   { path: '/a2b2', component: a2b2 },
+  { path: '/psychological_safety', component: psychological_safety },
+  { path: '/try_again', component: try_again },
 ];
 
 // 3. Create the router instance and pass the `routes` option

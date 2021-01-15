@@ -2,9 +2,9 @@
   <v-container>
     <Video
       :videoId="videoId"
-      yesLink="try_again"
+      yesLink="psychological_safety"
       noLink="try_again"
-      :question="'Do you know what is happening?'"
+      :question="'If you screamed, would anybody hear?'"
     />
   </v-container>
 </template>

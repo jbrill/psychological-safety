@@ -2,7 +2,7 @@
   <v-container>
     <Video
       :videoId="videoId"
-      yesLink="try_again"
+      yesLink="psychological_safety"
       noLink="try_again"
       :question="'Do you think you are a good person?'"
     />
