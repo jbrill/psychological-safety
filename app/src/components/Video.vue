@@ -19,13 +19,17 @@ export default {
     'noLink',
     'videoId',
     'question',
+    'speedUp'
   ],
   data: () => ({
     ended: false,
   }),
   methods: {
     setPlaybackRate(e) {
-      e.target.setPlaybackRate(3);
+      if (this.speedUp) {
+        e.target.setPlaybackRate(3);
+        e.target.playVideo();
+      }
     }
   },
 }
@@ -33,5 +37,8 @@ export default {
 <style scoped>
 .white--text {
   margin: 2px;
+}
+.h2 {
+  padding-bottom: 2rem;
 }
 </style>
