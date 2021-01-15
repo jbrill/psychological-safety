@@ -5,7 +5,7 @@
       yesLink="psychological_safety"
       noLink="a2a"
       :question="'Is there a meaning to life?'"
-      speedUp
+      :speedUp="true"
     />
   </v-container>
 </template>
