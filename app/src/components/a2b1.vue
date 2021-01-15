@@ -5,7 +5,6 @@
       yesLink="a2"
       noLink="psychological_safety"
       :question="'Do you know what is happening?'"
-      speedUp
     />
   </v-container>
 </template>

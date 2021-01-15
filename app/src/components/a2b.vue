@@ -5,6 +5,7 @@
       yesLink="a2b1"
       noLink="a2b2"
       :question="'Are you stressed?'"
+      :speedUp="true"
     />
   </v-container>
 </template>
