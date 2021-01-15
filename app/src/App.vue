@@ -49,6 +49,10 @@ export default {
 .container {
   text-align: center;
 }
+html, body {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 300;
+}
 #app {
   background-color: black;
   color: white;

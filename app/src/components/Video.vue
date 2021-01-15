@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <youtube v-if="!ended" @ended="ended = true" :video-id="videoId" :player-vars="{ autoplay: 1, controls: 0, showinfo: 0, frameBorder: 0, allowFullscreen: 0, modestbranding: 1, rel: 0 }"></youtube>
+    <youtube v-if="!ended" @ready="setPlaybackRate" @ended="ended = true" :video-id="videoId" :player-vars="{ autoplay: 1, controls: 0, showinfo: 0, frameBorder: 0, allowFullscreen: 0, modestbranding: 1, rel: 0, playbackRate: 3 }"></youtube>
     <div class="video-contain" v-if="ended">
       <h2>{{ question }}</h2>
       <v-flex>
@@ -23,6 +23,11 @@ export default {
   data: () => ({
     ended: false,
   }),
+  methods: {
+    setPlaybackRate(e) {
+      e.target.setPlaybackRate(3);
+    }
+  },
 }
 </script>
 <style scoped>
