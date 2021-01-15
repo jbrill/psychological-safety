@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h2>Try again!</h2>
+    <v-btn color="black" class="white--text" to="/">Try again!</v-btn>
   </v-container>
 </template>
 

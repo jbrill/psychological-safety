@@ -6,16 +6,17 @@
       dark
     >
       <div class="d-flex align-center">
+        <v-flex>
         <h2>Psychological Safety</h2>
+        <h6>Find your way to psychological safety</h6>
+        </v-flex>
       </div>
 
       <v-spacer></v-spacer>
+      <v-btn href="https://www.youtube.com/watch?v=G52dUQLxPzg" target="_blank">Take me away</v-btn>
     </v-app-bar>
 
-    <v-main>
-      <p>
-       Welcome to an interactive study on Psychological Safety.
-      </p>
+    <v-main flex align-items-center>
       <!-- route outlet -->
       <!-- component matched by the route will render here -->
       <router-view></router-view>
@@ -44,7 +45,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .container {
   text-align: center;
 }
@@ -54,5 +55,9 @@ export default {
 }
 .v-btn__content {
   color: white !important;
+}
+.v-main__wrap {
+  display: flex !important;
+  align-items: center !important;
 }
 </style>

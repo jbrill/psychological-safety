@@ -17,7 +17,7 @@ export default {
     Video,
   },
   data: () => ({
-    videoId: 'zOAVZV8tLsc',
+    videoId: 'A7SFu_HM6uI',
   }),
 }
 </script>
