@@ -30,6 +30,7 @@ export default {
         e.target.setPlaybackRate(3);
         e.target.playVideo();
       }
+      e.target.playVideo();
     }
   },
 }

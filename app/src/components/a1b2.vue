@@ -3,7 +3,7 @@
     <Video
       :videoId="videoId"
       yesLink="psychological_safety"
-      noLink="try_again"
+      noLink="a2a"
       :question="'Is there a meaning to life?'"
       speedUp
     />

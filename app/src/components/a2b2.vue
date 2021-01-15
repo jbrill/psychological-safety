@@ -3,7 +3,7 @@
     <Video
       :videoId="videoId"
       yesLink="try_again"
-      noLink="try_again"
+      noLink="a1b"
       :question="'Do you often find yourself wanting more?'"
     />
   </v-container>

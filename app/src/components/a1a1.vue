@@ -3,7 +3,7 @@
     <Video
       :videoId="videoId"
       yesLink="psychological_safety"
-      noLink="try_again"
+      noLink="a2"
       :question="'When I ask questions, is it really you answering?'"
     />
   </v-container>

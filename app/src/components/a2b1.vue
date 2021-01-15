@@ -2,7 +2,7 @@
   <v-container>
     <Video
       :videoId="videoId"
-      yesLink="try_again"
+      yesLink="a2"
       noLink="psychological_safety"
       :question="'Do you know what is happening?'"
     />

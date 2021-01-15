@@ -3,7 +3,7 @@
     <Video
       :videoId="videoId"
       yesLink="psychological_safety"
-      noLink="try_again"
+      noLink="a1b1"
       :question="'Do you want to know the truth?'"
     />
   </v-container>
