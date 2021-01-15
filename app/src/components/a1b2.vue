@@ -5,6 +5,7 @@
       yesLink="psychological_safety"
       noLink="try_again"
       :question="'Is there a meaning to life?'"
+      speedUp
     />
   </v-container>
 </template>
@@ -17,7 +18,7 @@ export default {
     Video,
   },
   data: () => ({
-    videoId: 'sDAJIWvTKw8',
+    videoId: 'XQyKEppujqI',
   }),
 }
 </script>
