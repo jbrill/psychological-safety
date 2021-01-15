@@ -16,7 +16,7 @@ import a2a1 from './components/a1b1';
 import a2a2 from './components/a1b2';
 import a2b from './components/a2b';
 import a2b1 from './components/a1b1';
-import a2b2 from './components/a1b2';
+import a2b2 from './components/a2b2';
 import psychological_safety from './components/psychological_safety';
 import try_again from './components/try_again';
 import VueYouTubeEmbed from 'vue-youtube-embed';

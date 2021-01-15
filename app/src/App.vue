@@ -7,7 +7,7 @@
     >
       <div class="d-flex align-center">
         <v-flex>
-        <h2>Psychological Safety</h2>
+        <h2><a style="color: white; text-decoration: none" href="/">Psychological Safety</a></h2>
         <h6>Find your way to psychological safety</h6>
         </v-flex>
       </div>
